@@ -32,3 +32,16 @@ or if conatiners are already running
 
     make start
 
+
+you can now reference the docker external network 'global_sentry' and the service 'sentry:9000' in your other docker containers 
+    
+    my-great-app:
+      
+      networks:
+        - default
+        - sentry_network
+    
+    networks:
+      sentry_network:
+        external:
+          name: global_sentry
