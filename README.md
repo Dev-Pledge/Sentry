@@ -28,7 +28,7 @@ To run the application in development, you can also run either of these command.
 
 	make up
 	
-or if conatiners are already running
+or if containers are already running
 
     make start
 
