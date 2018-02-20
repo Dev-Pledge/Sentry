@@ -45,3 +45,5 @@ you can now reference the docker external network 'global_sentry' and the servic
       sentry_network:
         external:
           name: global_sentry
+          
+Have fun its very useful once setup - the whole setup should take no longer than 20 minutes at most.  5 mins if your really quick!
