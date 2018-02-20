@@ -4,6 +4,8 @@
 
 You will need Docker and Composer installed on your machine.
 
+You will need another Docker container running NGINX to route your DNS to this install.
+
 Run this command from the directory in which you want to install your new Sentry Installation.
 
     composer create-project dev-pledge/sentry [my-app-name]
