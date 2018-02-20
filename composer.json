@@ -1,0 +1,27 @@
+{
+  "name": "dev-pledge/sentry",
+  "description": "Docker Compose Sentry For Use with NGINX",
+  "keywords": [
+    "sentry",
+    "error",
+    "docker"
+  ],
+  "homepage": "https://github.com/Dev-Pledge/Sentry",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "John Saunders",
+      "email": "john@yettimedia.co.uk"
+    }
+  ],
+  "config": {
+    "process-timeout": 0
+  },
+  "scripts": {
+    "install-sentry": "make install",
+    "sentry-up": "make up",
+    "sentry-down": "make down",
+    "sentry-start": "make start",
+    "sentry-stop": "make stop"
+  }
+}
