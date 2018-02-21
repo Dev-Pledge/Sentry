@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+
+  sentry:
+    ports:
+      - 9543:9000
+
+
+
