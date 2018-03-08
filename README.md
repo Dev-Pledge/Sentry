@@ -1,4 +1,4 @@
-# Docker Compose Sentry For Use with NGINX
+# Docker Compose Sentry For Use with NGINX/APACHE
 
 ## Install the Application
 
