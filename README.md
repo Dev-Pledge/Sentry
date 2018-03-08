@@ -45,5 +45,15 @@ you can now reference the docker external network 'global_sentry' and the servic
       sentry_network:
         external:
           name: global_sentry
-          
+	 
+You can also set up email notifications.  Add these environment variables to each docker-compose.yml service environment sections.
+
+    SENTRY_SERVER_EMAIL="sentry@my.domain"
+    SENTRY_EMAIL_HOST="smtp.mailgun.org"
+    SENTRY_EMAIL_PORT="587"
+    SENTRY_EMAIL_USER="postmaster@my.domain"
+    SENTRY_EMAIL_PASSWORD="pass"
+    SENTRY_EMAIL_USE_TLS="true"
+    SENTRY_SECRET_KEY="some_key" 
+
 Have fun its very useful once setup - the whole setup should take no longer than 20 minutes at most.  5 mins if your really quick!
